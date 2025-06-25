@@ -1,5 +1,7 @@
 name: Auto release draft
-description: Drafts a GitHub release with the changes introduced by a newly created version tag.
+description:
+  Drafts a GitHub release with the changes introduced by a newly created version
+  tag.
 author: Maxime Ancelin
 
 branding:
