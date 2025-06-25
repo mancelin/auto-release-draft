@@ -1,23 +1,13 @@
-name: The name of your action here
-description: Provide a description here
-author: Your name or organization here
+name: Auto release draft
+description: Drafts a GitHub release with the changes introduced by a newly created version tag.
+author: Maxime Ancelin
 
-# Add your action's branding here. This will appear on the GitHub Marketplace.
 branding:
-  icon: heart
-  color: red
+  icon: pencil
 
-# Define your inputs here.
-inputs:
-  milliseconds:
-    description: Your input description here
-    required: true
-    default: '1000'
-
-# Define your outputs here.
 outputs:
-  time:
-    description: Your output description here
+  release-url:
+    description: The url of the GitHub release that was drafted
 
 runs:
   using: node20
