@@ -1,8 +1,8 @@
 import * as core from '@actions/core'
-import * as event from './event.js'
-import * as version from './version.js'
-import * as github from './github.js'
-import * as git from './git.js'
+import * as event from './event'
+import * as version from './version'
+import * as github from './github'
+import * as git from './git'
 
 export async function run(): Promise<void> {
   try {
